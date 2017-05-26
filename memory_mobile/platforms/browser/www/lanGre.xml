@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app>
+<sounds>
+<speech>sounds/speechgreek.ogg</speech>
+<speechCog>sounds/cognitive.ogg</speechCog>
+<success>sounds/bravogreek.ogg</success>
+<keydown>sounds/keydown.ogg</keydown>
+<finish>sounds/well donegreek.ogg</finish>
+<finish>sounds/welldone1greek.ogg</finish>
+<finish>sounds/welldone2greek.ogg</finish>
+<finish>sounds/welldone3greek.ogg</finish>
+<finish>sounds/welldone4greek.ogg</finish>
+</sounds>
+<texts>
+<cognitive name = "Cognitive">ψευδής,αληθής</cognitive>
+<difficulty name = "Difficulty Level">4x5,4x6,5x6</difficulty>
+<noise name = "Noise">0,1,2,3</noise>
+</texts>
+
+</app>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="lib/easeljs-NEXT.combined.js"></script>
+ <script src="lib/tweenjs-NEXT.min.js"></script>
+  <script src="lib/soundjs-NEXT.min.js"></script>
+   <script src="lib/preloadjs-NEXT.min.js"></script>
+   
+     <script src="Main.js"></script>
+     <style>
+	*{
+  margin: 0;
+  padding: 0;
+}
+	body {
+		background-color:#fff;
+			
+	}
+	#mainb{
+		max-width:800px;
+		margin:0 auto;
+		
+	}
+	#gamew{
+		-webkit-tap-highlight-color: transparent;
+	}	
+			
+</style>
+    </head>
+    <body onload= "Main()">
+      <div id ="mainb">
+<canvas id="gamew" width="800" height="600" style="width:100%">Wait while loading:.</canvas>
+</div>
+
+    </body>
+</html>

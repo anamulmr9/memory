@@ -72,6 +72,7 @@ function Main(){
 	var xmlName = String("lan"+language+".xml");
 	loadGameXML(xmlName);
 	loadManifestg();
+	alert("cc");
 	
 }
 
